@@ -23,7 +23,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        minSdk 24
+        minSdk 21
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -49,8 +49,8 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.zxy.lib_base' //groupId 随便取
-                artifactId = 'lib-base'  //artifactId 随便取
+                groupId = 'com.zxy.lib_base1' //groupId 随便取
+                artifactId = 'lib-base2'  //artifactId 随便取
 //                version = '1.0.8'
             }
         }
